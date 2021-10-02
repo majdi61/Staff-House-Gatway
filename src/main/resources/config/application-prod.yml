@@ -52,8 +52,8 @@ spring:
       # it can be set to any label, branch or commit of the configuration source Git repository
   data:
     mongodb:
-      uri: mongodb://localhost:27017
-      database: staffhouse
+    uri: mongodb+srv://admin:admin@cluster0.udh9u.mongodb.net/stuffHouse?retryWrites=true&w=majority
+    database: stuffHouse
   mail:
     host: localhost
     port: 25
